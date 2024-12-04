@@ -6,7 +6,7 @@
 # **Real-Time Chat Application**
 
 ## **Overview**
-This is a fully functional real-time chat application built with modern technologies. It supports features like user authentication, real-time messaging, group chat, notifications, user profile management, and avatar/theme customization.
+This is a fully functional real-time chat application built with modern technologies. It supports features like user authentication, real-time messaging, group chat, notifications, user profile management, and avatar/theme customization. But i less work on Frontend design because i wanted to work more on backed. So gave less time at UI.
 
 ---
 
