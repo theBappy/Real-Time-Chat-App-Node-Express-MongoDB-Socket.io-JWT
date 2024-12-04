@@ -63,7 +63,7 @@ This is a fully functional real-time chat application built with modern technolo
 ### **Installation**
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/chat-app.git
+   git clone https://github.com/theBappy/Real-Time-Chat-App-Node-Express-MongoDB-Socket.io-JWT.git
    ```
 2. Navigate to the project directory:
    ```bash
