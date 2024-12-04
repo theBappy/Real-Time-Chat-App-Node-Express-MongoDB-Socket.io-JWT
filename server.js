@@ -50,6 +50,9 @@ app.use('/api/users', userRoutes);
 app.use('/api/groups', groupRoutes);
 
 // Serve HTML pages
+app.get('/api/auth/index', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'index.html'));
+});
 app.get('/api/auth/register', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'register.html'));
 });
@@ -84,7 +87,7 @@ app.use((err, req, res, next) => {
 const server = http.createServer(app);
 const io = new Server(server, {
     cors: {
-        origin: ['http://localhost:3000', 'https://your-production-url.com'],
+        origin: ['http://localhost:3000', 'https://real-time-chat-app-node-express-mongodb-usgy.onrender.com/'],
         methods: ['GET', 'POST'],
     },
 });
